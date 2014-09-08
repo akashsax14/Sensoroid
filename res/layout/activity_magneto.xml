@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/magnetParentLayout">
+    
+	<TextView
+        android:id="@+id/magnetHeader"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/magnetSensorHeader"
+	    android:typeface="monospace" 
+	    android:layout_gravity="center_horizontal" />
+	
+	<TextView
+        android:id="@+id/magnetInfo"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/magnetInfo"
+	    android:layout_gravity="center_horizontal" />
+	
+	<LinearLayout
+		android:id="@+id/magnetChildLayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dp"
+    	android:orientation="vertical"  >
+
+		<TextView
+		    android:id="@+id/magnetLabel1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" />
+		
+		<TextView
+		    android:id="@+id/magnetLabel2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" />
+		
+		<TextView
+		    android:id="@+id/magnetLabel3"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" />
+	</LinearLayout>
+</LinearLayout>

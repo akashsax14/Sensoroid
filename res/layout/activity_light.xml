@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".AmbientLightActivity"
+    android:id="@+id/lightParentLayout">
+    
+	<TextView
+        android:id="@+id/lightHeader"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/ambientLightHeader"
+	    android:typeface="monospace"
+	    android:layout_gravity="center_horizontal" />
+	
+	<TextView
+        android:id="@+id/lightInfo"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/ambientLightInfo"
+	    android:layout_gravity="center_horizontal" />
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dp" >
+
+		<TextView
+		    android:id="@+id/lightLabel"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/ambientLight" />
+
+		<TextView
+		    android:id="@+id/lightText"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp">
+
+		<TextView
+		    android:id="@+id/brightnessLabel"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/screenBrightness" />
+
+		<TextView
+		    android:id="@+id/brightnessText"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:id="@+id/ivLayout"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="30dp"
+	    android:layout_gravity="center_horizontal"
+	    android:orientation="horizontal">
+	    
+	</LinearLayout>
+
+</LinearLayout>

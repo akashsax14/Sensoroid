@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/proximityParentLayout">
+    
+	<TextView
+        android:id="@+id/proximityHeader"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/proximitySensorHeader"
+	    android:typeface="monospace" 
+	    android:layout_gravity="center_horizontal" />
+	
+	<TextView
+        android:id="@+id/proxInfo"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/proximityInfo"
+	    android:layout_gravity="center_horizontal" />
+	
+	<LinearLayout
+		android:id="@+id/farLayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dp"
+    	android:orientation="horizontal"  >
+
+		<TextView
+		    android:id="@+id/farLabel"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/farLabel" />
+
+		<ImageView
+		    android:id="@+id/imageView1"
+		    android:layout_width="50dp"
+		    android:layout_height="50dp"
+		    android:src="@drawable/far_andro" />
+		
+	</LinearLayout>
+	
+	<LinearLayout
+		android:id="@+id/nearLayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="100dp"
+    	android:orientation="horizontal"  >
+
+		<TextView
+		    android:id="@+id/nearLabel"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/nearLabel"
+		    android:textSize="70sp" />
+
+		<ImageView
+		    android:id="@+id/imageView2"
+		    android:layout_width="150dp"
+		    android:layout_height="150dp"
+		    android:src="@drawable/near_andro" />
+
+	</LinearLayout>
+</LinearLayout>

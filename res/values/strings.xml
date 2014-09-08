@@ -2,6 +2,19 @@
 <resources>
 
     <string name="app_name">Sensoroid</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="ambientLightHeader">Light Sensor</string>
+    <string name="proximitySensorHeader">Proximity Sensor</string>
+    <string name="ambientLight">Ambient Light : </string>
+    <string name="screenBrightness">Screen Brightness (0 - 1) : </string>
+    <string name="farLabel">Far</string>
+    <string name="nearLabel">Near</string>
+    <string name="infoLabel">Info</string>
+    <string name="listbuttonLabel">List of Sensors</string>
+    <string name="aboutbuttonLabel">About</string>
+    <string name="ambientLightInfo">(Swipe left to go back)</string>
+    <string name="proximityInfo">(Swipe right to go back)</string>
+    <string name="infoInfo">(Press back to return)</string>
+    <string name="magnetSensorHeader">Magnetometer</string>
+    <string name="magnetInfo">(Swipe up to go back)</string>
 
 </resources>
